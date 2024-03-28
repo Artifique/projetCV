@@ -452,14 +452,20 @@ div:before{
         display: flex;
         width: 100%;
         margin-bottom: 4px;
-        height: 170px;
+        height: 70px;
         background-repeat: no-repeat;
     }
-    .third img {
-        width: 138px;
-        height: 138px;
-        float: right;   
-        margin-right: 4%;
+    .third {
+        background: url("./img/moi.png") no-repeat;
+        background-position: center -35px;
+        background-size: 170% 150%;
+        background-clip: border-box;
+        background-color: #ffffff;
+        width: 1.8in;
+        height: 1.6in;
+        border-radius: 12px;
+        margin-top: 4%;
+        margin-right: 15%;
     }
     .first{
         flex:40%;
@@ -526,7 +532,18 @@ div:before{
         margin-top: 2px;
         margin-right: 4px;
     }
-   
+    .third {
+        background: url("./img/moi.png") no-repeat;
+        background-position: center -35px;
+        background-size: 170% 150%;
+        background-clip: border-box;
+        background-color: #ffffff;
+        width: 1.9in;
+        height: 1.6in;
+        border-radius: 12px;
+        margin-top: 9%;
+        margin-right: 15%;
+    }
     .icones {
         display: flex;
         flex-flow: row wrap;
@@ -587,6 +604,7 @@ div:before{
         width: 24px;
         height: 24px;
     }
+
     .study,.pro {
         padding-left: 4%;
         margin-left: 5%;
