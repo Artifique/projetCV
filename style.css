@@ -62,7 +62,7 @@ header{
     
     } 
     .third {
-        background: url("../cv/img/moi.png") no-repeat;
+        background: url("./img/moi.png") no-repeat;
         background-position: center -35px;
         background-size: 170% 150%;
         background-clip: border-box;
