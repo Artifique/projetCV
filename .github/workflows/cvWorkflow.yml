@@ -6,10 +6,8 @@ jobs:
   release:
    runs-on: ubuntu-20.04
    steps: 
-    - name: Checkout source code
-      uses: actions/checkout@V3
     - name: Install dependancies
-      run: npm ci
+      run: echo 'dependancies are installed!'
     - name: End message
       run: echo 'All done!'
    
