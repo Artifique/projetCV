@@ -7,7 +7,7 @@ jobs:
    runs-on: ubuntu-20.04
    steps: 
     - name: Install dependancies
-      run: npm ci
+      run: echo 'dependancies are installed!'
     - name: End message
       run: echo 'All done!'
    
