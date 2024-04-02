@@ -1,22 +1,17 @@
 name: Cv Workflow
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+on: [push,pull_request]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Build the site 
-    - uses: actions/checkout@v2
-    - name: Install the dependancies
+  release:
+   runs-on: ubuntu-20.04
+   steps: 
+    - name: Checkout source code
+      uses: actions/checkoutv@3
+    - name: Install dependancies
       run: npm ci
     - name: End message
       run: echo 'All done!'
    
+  
    
