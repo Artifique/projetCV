@@ -7,7 +7,7 @@ jobs:
    runs-on: ubuntu-20.04
    steps: 
     - name: Checkout source code
-      uses: actions/checkoutv@3
+      uses: actions/checkout@V3
     - name: Install dependancies
       run: npm ci
     - name: End message
